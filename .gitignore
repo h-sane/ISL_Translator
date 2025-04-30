@@ -1,0 +1,60 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Model and checkpoint files
+*.pth
+*.pt
+*.onnx
+*.h5
+checkpoints/
+models/
+saved_models/
+outputs/
+
+# Logs
+*.log
+*.out
+*.err
+
+# OpenCV files
+*.avi
+*.mp4
+*.mov
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Frontend build (if using React or similar inside vita_ui)
+node_modules/
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+
+# Others
+*.zip
+*.tar.gz
+*.bak
+*.tmp
